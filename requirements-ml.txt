@@ -1,0 +1,4 @@
+# Optional local semantic retrieval. Sentence-Transformers downloads all-MiniLM-L6-v2 on first use.
+sentence-transformers>=3.0
+faiss-cpu>=1.8; platform_system != "Windows"
+transformers>=4.45
